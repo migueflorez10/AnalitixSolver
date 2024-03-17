@@ -1,0 +1,60 @@
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del header */
+.nav-bg {
+    background-color: #190863; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.header-main {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem 2rem; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+/* Estilo de la imagen del logo */
+.header-main img {
+    height: 50px; 
+}
+
+/* Estilo de la navegación */
+nav ul {
+    list-style: none; 
+    display: flex; 
+    gap: 20px;
+    padding: 0; 
+    margin: 0; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #ffff;
+    font-weight: bold; 
+}
+
+nav ul li a:hover {
+    color: #007bff; 
+}
+
+/* Ajuste para dispositivos móviles */
+@media (max-width: 768px) {
+    .header-main {
+        flex-direction: column; 
+    }
+
+    nav ul {
+        justify-content: center; 
+        margin-top: 1rem; 
+    }
+}
