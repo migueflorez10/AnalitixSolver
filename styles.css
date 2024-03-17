@@ -142,3 +142,52 @@ nav ul li a:hover {
         margin-right: 0;
     }
 }
+
+
+/* methods.html */
+/* Importa aquí los estilos de tu archivo styles.css actual para mantener la coherencia */
+
+.methods-container {
+    text-align: center; /* Centra el contenido en el contenedor */
+    padding: 2rem; /* Espacio interior */
+    background-color: white; /* Fondo blanco para el contenido */
+    color: #0a3057; /* Color azul del texto */
+}
+
+.methods-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem; /* Espacio debajo del título */
+}
+
+.methods-container p {
+    margin-bottom: 2rem; /* Espacio debajo del párrafo */
+}
+
+.methods-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; /* Espacio entre los botones */
+}
+
+.method {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #0a3057; /* Fondo azul para botones */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px; /* Bordes redondeados para los botones */
+}
+
+.method:hover {
+    background-color: #083c5a; /* Azul más oscuro para el hover */
+}
+
+/* Estilos para el footer y otros elementos que desees incluir */
+
+/* Asegúrate de incluir estilos responsivos como en index.html */
+@media (max-width: 768px) {
+    /* Ajustes responsivos aquí */
+}
